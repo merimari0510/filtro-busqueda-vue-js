@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>	
+</head>
+<body>
+
+
+	<main class="animated bounceInLeft">
+		<input type="search" v-model="busqueda" placeholder="Busca aquí tu película...">
+		<ul>			
+			<li v-for="pelicula in buscarPorTitulo" class="caratula">
+				<img :src="pelicula.imagen">
+				{{ pelicula.titulo }}					
+			</li>			    	
+		</ul> 
+	</main>
+
+
+	<script src="vue.js"></script>	
+</body>
+</html>
+
