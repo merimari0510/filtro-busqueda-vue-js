@@ -1,4 +1,4 @@
-Filtro de Búsqueda con Vue.Js
+# Filtro de Búsqueda con Vue.Js
 
 Un ejemplo sencillo de un filtro de búsqueda con VueJS.
 
